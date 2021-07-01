@@ -1,0 +1,18 @@
+# Changelog
+This file contains the notable changes to the project
+
+Version 1.0.0 (01-06-2020)
+## New
+    - Added column "profit" in Transaction's sheet to calculate the total profit
+    - Added column "transaction_month" in Transaction's sheet to see exact months
+    - Added Column “age” in Customer_Demographic's sheet to see customer's age
+
+## Changes 
+    - Changed Text field format to Numeric
+    - Changed Text field format to Currency
+    - Removal of Blankspaces using TRIM
+    - Removal of Duplicates
+
+## Fixes
+    - Fixed "gender" coulumn where exception was thrown when cases didn’t match for category labels
+    - Fixed "state" coulumn where exception was thrown when cases didn’t match for category labels
